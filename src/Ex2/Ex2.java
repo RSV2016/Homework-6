@@ -25,7 +25,7 @@ public class Ex2 {
                 rec.width = scn.nextDouble();
             }
             if (exit == 2) {
-               rec.getArea(rec.height, rec.width);
+                System.out.println("Area = " + rec.getArea());
             }
         } while (exit > 0);
         return rec;

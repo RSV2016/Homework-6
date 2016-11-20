@@ -5,8 +5,8 @@ public class Rectangle {
     double width = 10.0;
     double height = 10.0;
 
-    public double getArea(double a, double b) {
-        System.out.println(a*b);
-        return a*b;
+    public double getArea() { //не нужно передавать данные. Метод сам возьмёт их у обьекта
+        //System.out.println(a*b); Метод не должен ничего печатать, он просто возвращает значение площади.
+        return this.width*this.height;
     }
 }
